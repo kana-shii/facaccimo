@@ -82,7 +82,7 @@
                   <b-field label="Chapter URL">
                     <b-input v-model="pages" @input="onProxyUrlChange"></b-input>
                   </b-field>
-                  Paste MangaDex/MangaSee/Imgur/MangaKatana URL above and it should be automatically turned into <pre style="display: inline; padding: 0.5rem">/proxy/api/</pre> URL
+                  Paste MangaDex/MangaSee/Imgur/MangaKatana/Imgbox URL above and it should be automatically turned into <pre style="display: inline; padding: 0.5rem">/proxy/api/</pre> URL
                 </div>
                 <div v-else>
                   <b-field label="List of image URLs">
